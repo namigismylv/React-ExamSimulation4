@@ -1,0 +1,81 @@
+.card {
+  border: none;
+  .card-body {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    background-color: #a5a5a51a;
+    .card-title {
+      text-align: center;
+      margin-top: 55px;
+      margin-bottom: 0.75rem;
+      a {
+        font-size: 22px;
+        font-weight: 500;
+        color: #1a1a1a;
+        line-height: 1.2;
+        font-family: "Roboto";
+      }
+    }
+    .card-text {
+      font-size: 14px;
+      font-weight: 500;
+      color: #a5a5a5;
+      margin-top: -12px;
+      text-align: center;
+      font-family: "Roboto";
+    }
+    .author {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 35px;
+      margin-top: 41px;
+      margin-left: -15px;
+      width: 350px;
+      
+      height: 67px;
+      background: #eaebec;
+      .author__img {
+        img {
+          border-radius: 50%;
+        }
+      }
+      .author__name  {
+        p{
+
+            font-size: 14px;
+            font-weight: 500;
+            color: #1a1a1a;
+            padding-left: 20px;
+            margin-top: 7px;
+            font-family: "Roboto";
+            span{
+                color: #a5a5a5;
+            }
+        }
+      }
+      .author__price{
+        width: 67px;
+        height: 67px;
+        background: #ffb606;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            color: #FFFFFF;
+            font-size: 18px;
+            font-family: "Roboto";  
+            font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.coursesCol {
+  
+  width: 29%;
+}
